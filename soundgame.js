@@ -138,7 +138,7 @@ document.getElementById("next-button").addEventListener("click", nextMovie);
 // 나가기 버튼 클릭시 초기화 및 메인으로 이동
 document.getElementById("reset-button").addEventListener("click", () => {
     localStorage.removeItem('players');
-    window.location.href = 'lobby-2.html'; // 소개 페이지로 이동------------------------------------------------------------------------------------------------------------------------------------
+    window.location.href = 'https://tngodj.github.io/Retire-Page/'; // 소개 페이지로 이동------------------------------------------------------------------------------------------------------------------------------------
 });
 
 // 게임 종료 처리
