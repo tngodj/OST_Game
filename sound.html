@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OST를 듣고 영화 맞추기</title>
+    <link rel="stylesheet" href="sound.css"> <!-- CSS 파일 연결 -->
+</head>
+<body>
+
+    <h1>OST를 듣고 영화 제목 맞추기</h1>
+
+    <div id="game-container">
+        <!--  화면 -->
+        <img id="movie-image" src="" alt="Movie GIF" style="display: none;"> <!-- GIF 이미지 -->
+
+        <!-- OST 오디오 플레이어 -->
+        <div id="audio-container">
+            <audio id="audio-player" controls preload="auto">
+                <source src="" type="audio/mp4"> <!-- OST 파일 경로 -->
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="info">
+            <p id="remaining-questions" class="align-right">남은 문제 수: <span id="questions-left">10</span></p>
+        </div>
+        
+        <!-- 영화 제목을 입력하는 텍스트 박스 -->
+        <input type="text" id="answer-input" placeholder="영화 제목 입력">
+        <button id="submit-button">제출</button>
+        <button id="next-button">다음문제로</button>
+        <p id="result"></p> <!-- 결과 메시지 -->
+        <p id="timer">남은 시간: 30초</p>
+        <p id="score">현재 점수: 0</p>
+        <button id="reset-button">나가기</button>
+    </div>
+
+    <script src="soundgame.js"></script> <!-- JS 파일 연결 -->
+
+</body>
+</html>
