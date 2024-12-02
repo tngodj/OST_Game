@@ -1,15 +1,22 @@
 // 영화 데이터 (OST와 제목)
 const movies = [
-    { title: "고양이의 보은", ost: "고양이의 보은2.mp4", video: "고양이의 보은 1.gif" },
-    { title: "벼랑 끝의 포뇨", ost: "포뇨.mp4", video: "포뇨 2.gif" },
-    { title: "하울의 움직이는성", ost: "하울의 움직이는성1.mp4", video: "하울의 움직이는 성 1.gif" },
-    { title: "천공의성 라퓨타", ost: "라퓨타1.mp4", video: "천공의 성 2.gif" },
-    { title: "하울의 움직이는성", ost: "하울의 움직이는성2.mp4", video: "캘시퍼 2.gif" },
-    { title: "이웃집 토토로", ost: "이웃집 토토로1.mp4", video: "토토로 2.gif" },
-    { title: "하울의 움직이는성", ost: "하울의 움직이는성3.mp4", video: "하울의 움직이는 성 2.gif" },
-    { title: "천공의성 라퓨타", ost: "라퓨타2.mp4", video: "천공의 성 1.gif" },
-    { title: "고양이의 보은", ost: "고양이의 보은1.mp4", video: "고양이의 보은 2.gif" },
-    { title: "이웃집 토토로", ost: "이웃집 토토로2.mp4", video: "토토로 4.gif" }
+    { title: "고양이의 보은", ost: "고양이 보은1.m4a", video: "고양이 보은1.gif" },
+    { title: "고양이의 보은", ost: "고양이 보은2.m4a", video: "고양이 보은2.gif" },
+    { title: "벼랑 끝의 포뇨", ost: "포뇨1.m4a", video: "포뇨1.gif" },
+    { title: "벼랑 끝의 포뇨", ost: "포뇨2.m4a", video: "포뇨2.gif" },
+    { title: "벼랑 끝의 포뇨", ost: "포뇨3.m4a", video: "포뇨3.gif" },
+    { title: "하울의 움직이는성", ost: "하울1.m4a", video: "하울1.gif" },
+    { title: "하울의 움직이는성", ost: "하울2.m4a", video: "하울2.gif" },
+    { title: "하울의 움직이는성", ost: "하울3.m4a", video: "하울3.gif" },
+    { title: "천공의성 라퓨타", ost: "천공1.m4a", video: "천공1.gif" },
+    { title: "천공의성 라퓨타", ost: "천공2.m4a", video: "천공2.gif" },
+    { title: "천공의성 라퓨타", ost: "천공3.m4a", video: "천공3.gif" },
+    { title: "이웃집 토토로", ost: "토토로1.m4a", video: "토토로1.gif" },
+    { title: "이웃집 토토로", ost: "토토로2.m4a", video: "토토로2.gif" },
+    { title: "이웃집 토토로", ost: "토토로3.m4a", video: "토토로3.gif" },
+    { title: "센과 치히로의 해방불명", ost: "센과치히로1.m4a", video: "센과치히로1.gif" },
+    { title: "센과 치히로의 해방불명", ost: "센과치히로2.m4a", video: "센과치히로2.gif" },
+    { title: "센과 치히로의 해방불명", ost: "센과치히로3.m4a", video: "센과치히로3.gif" },
 ];
 
 // 기본 게임 설정
